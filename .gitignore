@@ -2,3 +2,5 @@
 .ipynb_checkpoints
 **/embeddings
 **/models
+**/results
+**/*.pyc
