@@ -100,6 +100,7 @@ for clause in clauses:
                 # print("{:<15} {:^10} {:>15}".format(str(token.head.text), str(token.dep_), str(token.text)))
                 if str(token.text) in sub_list_to_filter:
                     obligatory_clauses.append(clause)
+                    continue
                     
                 # subjects_dict[str(token.text)] = subjects_dict.get(str(token.text), 0) + 1
         else:
@@ -108,6 +109,7 @@ for clause in clauses:
                 # subjects_dict[str(token.text)] = subjects_dict.get(str(token.text), 0) + 1
                 if str(token.text) in sub_list_to_filter:
                     obligatory_clauses.append(clause)
+                    continue
 
 
 # -------- Output Obligatory Clauses to user --------
@@ -115,7 +117,7 @@ for clause in clauses:
 with open(output_path, 'w', encoding='utf-8') as f:
         f.truncate(0)
         f.write("Obligatory Clauses:\n\n")
-        for c in obligatory_clauses:
+        for c in set(obligatory_clauses):
             f.write("- ")
             f.write(f'{c}\n')
 
