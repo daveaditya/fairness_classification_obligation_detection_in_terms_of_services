@@ -6,6 +6,8 @@ The contributions of this project to the earlier research are:
 1. An extensive comparison of Transformer based embeddings (RoBERTa and XLNet) with various deep learning models.
 2. Considering and identifying user obligated clauses as critical information in addition to unfair clauses.
 
+Project Demo: [link](https://drive.google.com/file/d/1xt5exptf-i57JNLXCCrp4wjfdcPR56B3/view?usp=sharing)
+
 ## Dataset
 
 ToS dataset created as a part of [CLAUDETTE](https://doi.org/10.48550/arXiv.1805.01217) experimental study. 
@@ -36,7 +38,7 @@ pip install -r requirements.txt
 python3 src/main.py ./../examples/9gag.txt # sample clauses files can be found in src/examples
 
 # execute the obligation detection code
-python3 Obligation_Detection/Obligations_v2.py
+python3 Obligation_Detection/Obligations_v2.py input.txt
 ```
 
 ## References
@@ -58,10 +60,8 @@ python3 Obligation_Detection/Obligations_v2.py
 [The cost of reading privacy policies](https://lorrie.cranor.org/pubs/readingPolicyCost-authorDraft.pdf)
 
 ## Contributors - Group 18
-Aditya Ashok Dave <br>
-Akanksha Sanjay Nogaja <br>
-Lavina Lavakumar Agarwal <br>
-Shreya Venkatesh Prabhu <br>
-Sai Sree Yoshitha Akunuri <br>
-
-## 
+Aditya Ashok Dave (daveadit@usc.edu) <br>
+Akanksha Sanjay Nogaja (nogaja@usc.edu) <br>
+Lavina Lavakumar Agarwal (llagarwa@usc.edu) <br>
+Shreya Venkatesh Prabhu (akunuri@usc.edu) <br>
+Sai Sree Yoshitha Akunuri (prabhus@usc.edu) <br>
