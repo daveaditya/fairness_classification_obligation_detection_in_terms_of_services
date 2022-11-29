@@ -6,7 +6,7 @@ The contributions of this project to the earlier research are:
 1. An extensive comparison of Transformer based embeddings (RoBERTa and XLNet) with various deep learning models.
 2. Considering and identifying user obligated clauses as critical information in addition to unfair clauses.
 
-Project Demo: [link](https://drive.google.com/file/d/1xt5exptf-i57JNLXCCrp4wjfdcPR56B3/view?usp=sharing)
+#### Project Demo: [link](https://drive.google.com/file/d/1xt5exptf-i57JNLXCCrp4wjfdcPR56B3/view?usp=sharing)
 
 ## Dataset
 
