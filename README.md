@@ -33,7 +33,7 @@ Steps to execute
 pip install -r requirements.txt
 
 # execute the fairness classification code
-python3 src/main.py
+python3 src/main.py ./../examples/9gag.txt # sample clauses files can be found in src/examples
 
 # execute the obligation detection code
 python3 Obligation_Detection/Obligations_v2.py
