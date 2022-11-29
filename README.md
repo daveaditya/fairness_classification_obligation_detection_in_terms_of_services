@@ -8,7 +8,7 @@ The contributions of this project to the earlier research are:
 
 ## Dataset
 
-ToS dataset created as a part of [CLAUDETTE](arXiv:1805.01217) experimental study. 
+ToS dataset created as a part of [CLAUDETTE](https://doi.org/10.48550/arXiv.1805.01217) experimental study. 
 
 ## Experiments and Source Code
 | Topic  | File location in Repository |
@@ -30,7 +30,7 @@ Steps to execute
 
 ```python
 # install all necessary packages
-pip install -r /path/to/requirements.txt
+pip install -r requirements.txt
 
 # execute the fairness classification code
 python3 src/main.py
