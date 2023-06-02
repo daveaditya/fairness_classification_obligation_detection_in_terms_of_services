@@ -63,5 +63,5 @@ python3 Obligation_Detection/Obligations_v2.py input.txt
 Aditya Ashok Dave (daveadit@usc.edu) <br>
 Akanksha Sanjay Nogaja (nogaja@usc.edu) <br>
 Lavina Lavakumar Agarwal (llagarwa@usc.edu) <br>
-Shreya Venkatesh Prabhu (akunuri@usc.edu) <br>
-Sai Sree Yoshitha Akunuri (prabhus@usc.edu) <br>
+Shreya Venkatesh Prabhu (prabhus@usc.edu) <br>
+Sai Sree Yoshitha Akunuri (akunuri@usc.edu) <br>
